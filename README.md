@@ -10,8 +10,15 @@
       ```
    cd Lab_arep_01
    ```
-3. 
-
+3. compilar el proyecto
+   ```
+   mvn clean install
+   ```
+4. ejecutar la aplicacion
+   
+   ```
+   java -cp target/classes com.mycompany.calculator.HttpServer
+   ```
 
 ## implementación Bububle sort
 ![image](https://github.com/user-attachments/assets/6efc8a16-eba7-4dcf-8e0d-722ff8c2d96c)
